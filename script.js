@@ -9,9 +9,9 @@ const imagen3 = document.getElementById("womanImage3");
 
 // Usa rutas relativas - coloca las imágenes en la misma carpeta que index.html
 // o en una subcarpeta llamada "img"
-imagen1.src = "img/anyela.png";
-imagen2.src = "img/anyela2.png";
-imagen3.src = "img/anyela4.png";
+imagen1.src = "anyela.png";
+imagen2.src = "anyela2.png";
+imagen3.src = "anyela4.png";
 
 // Manejo de errores de carga de imágenes
 function manejarErrorImagen(img, rutaAlternativa) {
