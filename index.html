@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Eres mi prioridad · Amor y ternura</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="petal-container"></div>
+
+<div class="card">
+  <div class="inner">
+    <!-- Sección de tres imágenes -->
+    <div class="hero-img">
+      <div class="image-gallery">
+        <div class="image-item">
+          <img id="womanImage1" src="img/anyela.png" alt="Mujer luchadora">
+          <div class="image-caption">🌸 Mujer de fuerza y corazón 🌸</div>
+        </div>
+        <div class="image-item">
+          <img id="womanImage2" src="img/anyela2.png" alt="Madre guerrera">
+          <div class="image-caption">🌺 Madre guerrera, amor infinito 🌺</div>
+        </div>
+        <div class="image-item">
+          <img id="womanImage3" src="img/anyela4.png" alt="Mujer fuerte">
+          <div class="image-caption">✨ Valentía y ternura en una sola alma ✨</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Título -->
+    <div class="titulo">
+      <h1>✨ Eres mi prioridad ✨</h1>
+      <p>💖 Mi guerrera favorita, amor eterno 💖</p>
+    </div>
+
+    <!-- Caja de mensajes -->
+    <div class="mensajes-box">
+      <div class="frase-activa">
+        <div class="mensaje-texto" id="mensajeDinamico">
+          “Tu corazón es refugio y tu abrazo, el hogar. Luchas por tus hijos con la dulzura de mil lunas.”
+        </div>
+        <div class="mensaje-autor" id="autorMensaje">— Poema a una madre guerrera</div>
+      </div>
+      <div class="nav-mensajes">
+        <button class="nav-btn" id="btnAnterior">◀ Anterior</button>
+        <button class="nav-btn" id="btnSiguiente">Siguiente ▶</button>
+      </div>
+      <div class="indicator" id="indicadorMsg">Mensaje 1 de 8</div>
+    </div>
+
+    <!-- Corazones interactivos -->
+    <div class="corazones">
+      <span class="corazon" data-emoji="❤️">❤️</span>
+      <span class="corazon" data-emoji="💖">💖</span>
+      <span class="corazon" data-emoji="🌸">🌸</span>
+      <span class="corazon" data-emoji="✨">✨</span>
+      <span class="corazon" data-emoji="🌹">🌹</span>
+    </div>
+
+    <!-- Sorpresa romántica -->
+    <div class="sorpresa">
+      <p>💌 ¿Quieres un mensaje especial del corazón?</p>
+      <button class="btn-sorpresa" id="btnSorpresa">✨ Toque romántico ✨</button>
+    </div>
+    <div id="sorpresaTexto" style="text-align: center; margin-top: 5px; font-weight: 500; color:#c4456b; min-height: 50px;"></div>
+
+    <div class="footer">
+      🌷 Para ti, que lo das todo: amor, valentía y ternura. Eres mi prioridad, mi razón, mi fuerza. 🌷 <br>
+      💕 Te amo con el alma, luchadora hermosa 💕
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
